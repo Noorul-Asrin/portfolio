@@ -1,0 +1,137 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+body{
+  padding: 30px;
+  font-family: "Young Serif", serif;
+}
+.container-one{
+    padding: 20px;
+    color: white;
+    background-color: black;
+   
+}
+.container-one__contact{
+    background-color: orange;
+    display: inline-block;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 6px;
+    
+}
+.container-one__name{
+    font-size: 40px;
+}
+.container-one__roll{
+    font-size: 20px;
+}
+.container-two,.container-three,.container-four,.container-five{
+    margin-top: 20px;
+}
+.container-two__des,.container-three__des,.container-four__des,.container-five__des{
+    margin-top: 10px;
+}
+.container-five{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.container-five  a{
+    color: skyblue;
+}
+.container-three li,.container-four li{
+    list-style: none;
+}
+.container-three{
+    background-color: violet;
+    padding: 20px;
+    display: inline-block;
+    height: 150px;
+    border-radius: 20px;
+    vertical-align: top;
+}
+.container-four{
+    background-color: powderblue;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    height: 150px;
+    vertical-align: top;
+}
+.contact{
+    font-family: "Young Serif", serif;
+}
+.contact-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.contact-one__button{
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+  
+}
+.contact-three{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.contact-three__email,.contact-three__des,.contact-three__n{
+    margin-top: 5px;
+}
+.contact-three a{
+    color: skyblue;
+    padding: 5px;
+}
+.contact-two{
+    margin-top: 15px;
+}
+.contact-one__name{
+    font-size: 40px;
+}
+.contact-one__roll{
+    font-size: 20px;
+}
+.contact-two__input,.contact-two__option,.contact-two__textarea,.contact-two__submit{
+    margin-top: 10px;
+}
+.contact-two__title{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.contact-two__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid 1px;
+}
+.contact-two__textarea{
+    padding: 10px;
+    border: none;
+    border-bottom: solid 1px;
+}
+.contact-two__submit{
+    padding: 9px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.contact-two__option{
+    padding: 10px ;
+    border: none;
+    border-bottom: solid 1px;
+}
